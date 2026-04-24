@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=LinuxDPI-TR
+Name[tr]=LinuxDPI-TR
+Comment=Türkiye internet kısıtlamalarını aşma aracı
+Comment[tr]=Türkiye internet kısıtlamalarını aşma aracı
+Exec=python3 /usr/local/share/linuxdpi-tr/linuxdpi.py
+Icon=network-vpn
+Terminal=false
+Categories=Network;System;
+Keywords=vpn;wireguard;warp;turkey;dpi;bypass;zapret;byedpi;
+StartupNotify=true
