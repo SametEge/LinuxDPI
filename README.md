@@ -1,6 +1,6 @@
 <div align="center">
 
-# LinuxDPI-TR
+# LinuxDPI
 
 **Linux desktop application to bypass internet restrictions in Turkey**
 
