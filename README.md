@@ -16,7 +16,7 @@
 
 ## What is it?
 
-**LinuxDPI-TR** is an open-source Linux application developed for internet users in Turkey. It lets you manage DPI (Deep Packet Inspection) bypass and VPN tunneling tools from a single GTK4 interface.
+**LinuxDPI** is an open-source Linux application developed for internet users in Turkey. It lets you manage DPI (Deep Packet Inspection) bypass and VPN tunneling tools from a single GTK4 interface.
 
 It handles the installation and management of popular tools like Cloudflare WARP, Zapret, and ByeDPI **with a single click** — no technical knowledge required.
 
@@ -44,7 +44,7 @@ It handles the installation and management of popular tools like Cloudflare WARP
 ### Method 1 — One-liner (Fastest)
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/sametege/LinuxDPI-TR/main/install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/sametege/LinuxDPI/main/install.sh)
 ```
 
 That's it. The script will install all required packages and set everything up automatically.
@@ -60,8 +60,8 @@ sudo pacman -S git
 
 **Step 2 — Clone the repository**
 ```bash
-git clone https://github.com/sametege/LinuxDPI-TR.git
-cd LinuxDPI-TR
+git clone https://github.com/sametege/LinuxDPI.git
+cd LinuxDPI
 ```
 
 **Step 3 — Run the installer**
@@ -72,14 +72,14 @@ bash install.sh
 The installer will automatically:
 - Install required packages (`python-gobject`, `gtk4`, `wireguard-tools`, `nftables`)
 - Install AUR tools (`wgcf`, `byedpi`, `zapret`) if you have `yay` or `paru`
-- Add the app to `/usr/local/bin/linuxdpi-tr`
+- Add the app to `/usr/local/bin/linuxdpi`
 - Create a desktop shortcut in your application menu
 
 **Step 4 — Launch**
 ```bash
-linuxdpi-tr
+linuxdpi
 ```
-Or search for **LinuxDPI-TR** in your application menu.
+Or search for **LinuxDPI** in your application menu.
 
 ---
 
@@ -88,8 +88,8 @@ Or search for **LinuxDPI-TR** in your application menu.
 If you just want to try it without installing:
 
 ```bash
-git clone https://github.com/sametege/LinuxDPI-TR.git
-cd LinuxDPI-TR
+git clone https://github.com/sametege/LinuxDPI.git
+cd LinuxDPI
 python3 linuxdpi.py
 ```
 
